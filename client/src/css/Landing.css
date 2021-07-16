@@ -1,0 +1,371 @@
+.landingPageContainer {
+  position: relative;
+  min-height: 100vh;
+  background: rgb(238,59,55);
+  background: linear-gradient(90deg, rgba(238,59,55,0.05) 0%, rgba(144,69,99,0.1) 25%, rgba(46,79,145,0.2) 100%);
+}
+
+.landingPageNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(54,54,54,0.2);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(54,54,54,0.2);
+  box-shadow: 0px 1px 7px 0px rgba(54,54,54,0.2);
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.landingPageBrand {
+  height: 80px;
+  width: auto;
+}
+
+.landingPageNavButton {
+  margin: 0px 10px;
+  border: none;
+  outline: none;
+  padding: 6px 40px;
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.landingPageButtonBlue {
+  background-color: var(--blue);
+}
+
+.landingPageButtonRed {
+  background-color: var(--red);
+}
+
+.landingPageGraphic {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.landingPageContent {
+  height: 400px;
+  width: 1400px;
+  background-color: white;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  /* -webkit-box-shadow: 3px 3px 7px 5px rgba(54,54,54,0.5);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(54,54,54,0.2); */
+  box-shadow: 2px 2px 15px 4px rgba(54,54,54,0.3);
+}
+
+.landingPageForm {
+  height: calc(100% - 80px);
+  width: calc(50% - 160px);
+  padding: 40px 80px;
+  position: relative;
+}
+
+.landingPageFormTitle {
+  font-size: 1.8em;
+  color: var(--blue);
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.landingPageFormSub {
+  margin: 0px;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+.landingPageInputRowUnderline {
+  padding: 8px 5px;
+  width: calc(100% - 10px);
+  border-radius: 8px;
+  display: flex;
+  margin: 15px 0px;
+  position: relative;
+  border-radius: 0px;
+  border-bottom: 1px var(--black) solid;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.landingPageInputUnderline {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+.landingPageSlick {
+  height: 400px;
+  width: 50%;
+}
+
+.landingPageSlide {
+  outline: none;
+}
+
+.landingPageImg {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+
+.slick-dots {
+  bottom: 20px;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--white);
+  opacity: 0.9;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--red);
+  opacity: 0.9;
+}
+
+#landingPageImg1 {
+  background-image: url("./../images/about1.jpg");
+}
+
+#landingPageImg2 {
+  background-image: url("./../images/about2.jpg");
+}
+
+#landingPageImg3 {
+  background-image: url("./../images/about3.jpg");
+}
+
+#landingPageImg4 {
+  background-image: url("./../images/about4.jpg");
+}
+
+#landingPageImg5 {
+  background-image: url("./../images/about5.jpg");
+}
+
+.landingPageProcess {
+  width: 1400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.landingPageProcessInner {
+  height: 300px;
+  width: 1000px;
+  display: flex;
+  position: relative;
+}
+
+.landingPageProcessItem {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingPageProcessTitle {
+  margin: 0px;
+  margin-bottom: 20px;
+  color: var(--blue);
+}
+
+.landingPageProcessImg {
+  height: 50px;
+  width: 50px;
+}
+
+.landingPageProcessImgView {
+  padding: 20px;
+  border: 3px var(--blue) solid;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.landingPageProcessText {
+  text-align: center;
+  width: 90%;
+  line-height: 26px;
+  margin: 0px;
+}
+
+.landingPageProcessGraphic {
+  position: absolute;
+  width: 800px;
+  left: 100px;
+  height: 0px;
+  top: 98px;
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 12px var(--red) dashed; */
+  animation: slide 3s infinite linear;
+}
+
+.landingBlock {
+  width: 25px;
+  height: 12px;
+  background-color: var(--red);
+}
+
+.landingPageSubmit {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  font-size: 1em;
+  margin: 8px 0px;
+  padding: 8px 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.landingPageSubmit:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.poweredBy {
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 6px;
+  margin: 0px;
+  right: 8px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-19px);
+  }
+  100% {
+    transform: translateX(19px);
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .landingPageContent {
+    width: 900px;
+  }
+
+  .landingPageProcess {
+    width: 900px;
+  }
+
+  .landingPageProcessInner {
+    width: 800px;
+  }
+
+  .landingPageForm {
+    height: calc(100% - 40px);
+    width: calc(50% - 80px);
+    padding: 20px 40px;
+  }
+
+  .landingPageFormTitle {
+    font-size: 1.6em;
+  }
+
+  .landingPageGraphic {
+    height: 300px;
+  }
+
+  .landingPageProcessGraphic {
+    width: 600px;
+  }
+
+  .landingBlock {
+    width: 20px;
+    height: 10px;
+    background-color: var(--red);
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(-14px);
+    }
+    100% {
+      transform: translateX(14px);
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .landingPageNav {
+    padding: 5px 10px;
+  }
+  
+  .landingPageBrand {
+    height: 60px;
+  }
+
+  .landingPageNavButtons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landingPageNavButton {
+    margin: 3px 0px;
+  }
+
+  .landingPageContent {
+    width: 300px;
+    flex-direction: column;
+    height: unset;
+  }
+
+  .landingPageProcess {
+    width: 300px;
+    height: unset;
+  }
+
+  .landingPageProcessInner {
+    width: 300px;
+    flex-direction: column;
+    height: unset;
+  }
+
+  .landingPageProcessItem {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .landingPageForm {
+    height: calc(100% - 20px);
+    width: calc(100% - 40px);
+    padding: 10px 20px 20px 20px;
+  }
+
+  .landingPageSlick {
+    width: 100%;
+    height: 200px;
+  }
+
+  .landingPageImg {
+    height: 200px;
+  }
+
+  .landingPageGraphic {
+    height: 150px;
+  }
+
+  .landingPageProcessGraphic {
+    display: none;
+  }
+}

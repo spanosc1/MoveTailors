@@ -1,0 +1,58 @@
+{
+  "home": {
+    "url": "https://www.movetailors.com/",
+    "pageName": "Tailor Your Move (Home)",
+    "title": "Stress-Free International Moving Services | Move Tailors",
+    "titleLength": "56",
+    "metaDesc": "Moving internationally doesn't have to be stressful. Move Tailors offers easy and safe transportation for your things from your old home to your new one.",
+    "metaLength": "153"
+  },
+  "about": {
+    "url": "https://www.movetailors.com/about",
+    "pageName": "About Us",
+    "title": "Learn More About Move Tailors",
+    "titleLength": "29",
+    "metaDesc": "Learn more about Move Tailors. Our mission, who we are, and why we are passionate about helping you move internationally.",
+    "metaLength": "121"
+  },
+  "faq": {
+    "url": "https://www.movetailors.com/faq",
+    "pageName": "FAQ",
+    "title": "Frequently Asked Questions | Move Tailors",
+    "titleLength": "41",
+    "metaDesc": "Moving is a big task and it is normal to have questions. Check out some common questions that Move Tailors has already helped other movers out with.",
+    "metaLength": "148"
+  },
+  "blog": {
+    "url": "https://www.movetailors.com/blog",
+    "pageName": "Blog",
+    "title": "Articles, Blogs, and Resources For Your Move | Move Tailors",
+    "titleLength": "59",
+    "metaDesc": "Hear from the experts about moving. How tos, guides, and other resources to make sure you start your moving journey on the right foot.",
+    "metaLength": "134"
+  },
+  "contact": {
+    "url": "https://www.movetailors.com/contact",
+    "pageName": "Contact Us",
+    "title": "Contact Us | Move Tailors",
+    "titleLength": "25",
+    "metaDesc": "Reach out to the Move Tailor team with any questions, comments or concerns.",
+    "metaLength": "76"
+  },
+  "login": {
+    "url": "https://www.movetailors.com/login",
+    "pageName": "Login",
+    "title": "Login | Move Tailors",
+    "titleLength": "20",
+    "metaDesc": "Login to your Move Tailors account here",
+    "metaLength": "39"
+  },
+  "signUp": {
+    "url": "https://www.movetailors.com/signup",
+    "pageName": "Sign Up",
+    "title": "Sign Up | Move Tailors",
+    "titleLength": "22",
+    "metaDesc": "Sign up with Move Tailors to help make your moving journey a stress free one.",
+    "metaLength": "77"
+  }
+}

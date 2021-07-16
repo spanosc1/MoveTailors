@@ -1,0 +1,290 @@
+.yourMoveBackground {
+  background-image: url('./../images/yourmove.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yourMoveContainer {
+  width: calc(900px - 40px);
+  padding: 20px;
+  background-color: rgba(54, 54, 54, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+
+.yourMoveTitleRow {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.yourMoveTitle {
+  margin: 0px;
+  color: var(--blue);
+}
+
+.bookingStatusView {
+  background-color: white;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bookingStatus {
+  margin: 0px;
+}
+
+.yourMoveInner {
+  padding: 25px;
+  background-color: var(--white);
+}
+
+.yourMoveRow {
+  display: flex;
+  padding: 10px 0px;
+  color: var(--black);
+}
+
+.yourMoveRowTitle {
+  width: 120px;
+  margin: 0px;
+}
+
+.yourMoveRowTitleRight {
+  margin: 0px;
+}
+
+.moveRightRow {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.rowTitleRight {
+  display: inline-block;
+  width: 130px;
+}
+
+.yourMoveRowValue {
+  margin: 0px;
+  max-width: 650px;
+}
+
+.yourMoveWhite {
+  background-color: white;
+  width: 30%;
+  margin: 0px;
+  height: 50px;
+  padding: 12px 18px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.yourMoveWhiteShort {
+  background-color: white;
+  width: 30%;
+  margin: 0px;
+  padding: 12px 18px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.changeContainerSize {
+  outline: none;
+  background-color: #dddddd;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--black);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.changeContainerSize:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.yourMovePrice {
+  margin: 0px;
+  padding: 10px 15px;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.yourMovePriceValid {
+  line-height: 38px;
+}
+
+.yourMoveButtons {
+  justify-content: flex-end;
+}
+
+.printButton {
+  background-color: white;
+  color: var(--black);
+  border: none;
+  font-size: 1.1em;
+  margin: 0px;
+  margin-right: 15px;
+  padding: 12px 0px;
+  width: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.printButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.otherButton {
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  font-size: 1.1em;
+  margin: 0px;
+  margin-right: 15px;
+  padding: 12px 0px;
+  width: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.otherButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.bookButton {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  font-size: 1.1em;
+  margin: 0px;
+  padding: 12px 0px;
+  width: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.bookButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.printContainer {
+  height: 80px;
+  width: calc(100% - 20px);
+  padding: 0px 10px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.printLine {
+  margin: 0px 0px;
+  font-size: 0.9em;
+}
+
+@media only screen and (max-width: 992px) {
+  .yourMoveTitleRow {
+    width: 300px;
+    flex-direction: column;
+  }
+
+  .yourMoveTitle {
+    margin-bottom: 10px;
+  }
+
+  .yourMoveContainer {
+    width: calc(300px - 10px);
+    padding: 5px;
+  }
+
+  .yourMoveInner {
+    padding: 10px;
+  }
+
+  .yourMoveRow {
+    flex-direction: column;
+  }
+
+  .yourMoveRowTitle {
+    margin-bottom: 10px;
+  }
+
+  .yourMoveRowValue {
+    width: 80%;
+    margin-left: 15px;
+  }
+
+  .yourMoveWhite {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .yourMoveWhiteShort {
+    width: 80%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+
+  .yourMoveRowTitleRight {
+    width: unset;
+  }
+
+  .printButton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .otherButton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .bookButton {
+    width: 100%;
+  }
+
+  .moveRightRow {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+  }
+
+  .rowTitleRight {
+    margin-bottom: 10px;
+  }
+
+  .rowValueRight {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .yourMoveBackground {
+    min-height: calc(100vh - 360px);
+  }
+}

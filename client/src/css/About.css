@@ -1,0 +1,254 @@
+/* LANDING */
+
+.aboutLanding {
+  width: 100%;
+  height: 750px;
+}
+
+.landingSlide {
+  outline: none;
+}
+
+.landingImg {
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  width: 100%;
+}
+
+#landingImg1 {
+  background-image: url("./../images/about1.webp");
+}
+
+#landingImg2 {
+  background-image: url("./../images/about2.webp");
+}
+
+#landingImg3 {
+  background-image: url("./../images/about3.webp");
+}
+
+#landingImg4 {
+  background-image: url("./../images/about4.webp");
+}
+
+#landingImg5 {
+  background-image: url("./../images/about5.webp");
+}
+
+/* MISSION */
+
+.missionContainer {
+  padding: 50px 0px;
+  background-color: var(--white);
+}
+
+.missionContent {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.missionTitle {
+  font-size: 2.2em;
+  color: var(--blue);
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.missionSubTitle {
+  margin: 0px;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+
+.missionList {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+}
+
+.missionListTitle {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: var(--black);
+}
+
+.missionListItem {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px;
+  align-items: center;
+}
+
+.missionNum {
+  background: var(--red-gradient);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  margin-right: 12px;
+  line-height: 40px;
+  color: var(--white);
+  font-size: 1.2em;
+  border-radius: 50%;
+}
+
+.missionText {
+  margin: 0px;
+  line-height: 40px;
+  color: var(--black);
+}
+
+/* WHO WE ARE */
+
+.whoContainer {
+  padding: 50px 0px;
+  background-color: white;
+}
+
+.whoContent {
+  width: 1200px;
+  margin: auto;
+}
+
+.whoTitle {
+  font-size: 2.2em;
+  color: var(--blue);
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.whoBody {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+
+.whoTextView {
+  flex: 3;
+  padding-right: 80px;
+}
+
+.whoText {
+  margin: 0px;
+  margin-bottom: 15px;
+  line-height: 26px;
+  color: var(--black);
+}
+
+.whoImgView {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1450px) {
+  .aboutLanding {
+    height: 550px;
+  }
+
+  .landingImg {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .aboutLanding {
+    height: 500px;
+  }
+
+  .landingImg {
+    height: 500px;
+  }
+
+  .missionContent {
+    width: 900px;
+  }
+
+  .whoContent {
+    width: 900px;
+  }
+
+  .whoTextView {
+    flex: 2;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .aboutLanding {
+    height: 100vh;
+  }
+
+  .landingImg {
+    height: 100vh;
+  }
+
+  .missionContent {
+    width: 300px;
+  }
+
+  .missionTitle {
+    font-size: 2em;
+  }
+
+  .missionSubTitle {
+    font-size: 1.3em;
+  }
+
+  .missionListTitle {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+
+  .missionList {
+    width: 300px;
+  }
+
+  .missionListItem {
+    margin-bottom: 20px;
+  }
+
+  .missionText {
+    width: 240px;
+    line-height: 20px;
+    font-size: 0.95em;
+  }
+
+  .whoContent {
+    width: 300px;
+  }
+
+  .whoBody {
+    flex-direction: column-reverse;
+  }
+
+  .whoTextView {
+    padding: 0px;
+  }
+
+  .whoText {
+    text-align: justify;
+  }
+
+  .whoImgView {
+    margin-bottom: 20px;
+  }
+
+  .whoImg {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .aboutLanding {
+    height: 800px;
+  }
+  
+  .landingImg {
+    height: 800px;
+  }
+}

@@ -1,0 +1,77 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup-view {
+    min-height: calc(100vh - 360px);
+    width: 100%;
+    background-image: url('./../images/accountcreation.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form#signup-form {
+    width: calc(95% - 60px);
+    max-width: 600px;
+    padding: 30px 30px;
+    background-color: var(--white);
+    -webkit-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+#signup-text {
+    font-size: 2.2em;
+    color: var(--black);
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+
+.form-control {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--black);
+    padding: 5px 0px;
+    margin-bottom: 20px;
+    outline: none;
+    z-index: 1;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid var(--blue);
+    top: -16px;
+    color: var(--black);
+    font-size: 0.9em;
+    cursor: default;
+}
+
+.signup-btn {
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    width: 50%;
+    font-size: 1rem;
+    margin: 0px 30px;
+    padding: 8px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.signup-btn~p {
+    font-size: .8rem;
+}
+
+.signup-btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.3);
+}

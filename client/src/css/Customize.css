@@ -1,0 +1,268 @@
+.customizeBackground {
+  background-image: url('./../images/tailoryourmove.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customizeContainer {
+  width: calc(1200px - 40px);
+  padding: 20px;
+  background-color: rgba(54, 54, 54, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+
+.customizeInnerTop {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.customizeSelectedContainer {
+  width: calc(65% - 60px);
+  padding: 20px 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customizeTypeSelected {
+  color: var(--blue);
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.customizeImgSelected {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.customizeDescSelected {
+  margin: 0px;
+}
+
+.optionsContainer {
+  width: calc(35% - 60px);
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.optionsTitle {
+  color: var(--white);
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 220px;
+}
+
+.optionButton {
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--white);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1em;
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.optionButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.optionsExplainer {
+  font-size: 0.9em;
+  color: var(--white);
+}
+
+.customizeInnerBottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: var(--white);
+}
+
+.customizeBottomPrice {
+  margin: 0px;
+}
+
+.priceVal {
+  font-size: 1.5em;
+}
+
+.customizeBottomButtons {
+  display: flex;
+}
+
+.changeDestButton {
+  padding: 10px 30px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  font-size: 1em;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.changeDestButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.summaryButton {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--red);
+  color: var(--white);
+  cursor: pointer;
+  border: none;
+  margin-left: 15px;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.summaryButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.datePickerTitle {
+  font-size: 1.3em;
+  text-align: center;
+  color: var(--white);
+}
+
+.datePicker {
+  width: 100%;
+  background-color: transparent;
+  color: var(--white);
+  outline: none;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .customizeContainer {
+    width: calc(900px - 40px);
+    padding: 20px;
+    background-color: rgba(54, 54, 54, 0.9);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .options {
+    height: 200px;
+  }
+  
+  .optionButton {
+    width: 100%;
+    padding: 12px 18px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .customizeBackground {
+    height: unset;
+    padding-bottom: 30px;
+  }
+
+  .customizeContainer {
+    width: calc(300px - 40px);
+    padding: 15px;
+    flex-direction: column-reverse;
+  }
+
+  .customizeInnerTop {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .customizeSelectedContainer {
+    width: calc(100% - 30px);
+    min-height: 330px;
+    padding: 12px 15px;
+  }
+
+  .optionsContainer {
+    width: calc(100% - 30px);
+    padding: 12px 15px;
+  }
+
+  .customizeInnerBottom {
+    flex-direction: column;
+    padding: 12px 15px;
+  }
+
+  .customizeBottomPrice {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .customizeBottomButtons {
+    flex-direction: column;
+  }
+
+  .changeDestButton {
+    padding: 10px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  .summaryButton {
+    margin: 0px;
+    padding: 10px 15px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .customizeTypeSelected {
+    font-size: 1.25em;
+  }
+  
+  .priceVal {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .customizeBackground {
+    min-height: calc(100vh - 360px);
+  }
+}

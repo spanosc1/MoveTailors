@@ -1,0 +1,406 @@
+.instantBackground {
+  background-image: url('./../images/tailoryourmove.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instantContainer {
+  width: 1200px;
+}
+
+.instantTitleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.instantTitle {
+  margin: 0px;
+  color: var(--blue);
+}
+
+.instantPrint {
+  outline: none;
+  background-color: white;
+  border: none;
+  margin: 0px;
+  padding: 12px 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.instantContent {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(54, 54, 54, 0.9);
+  padding: 20px;
+}
+
+.instantInnerTop {
+  padding: 20px 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.instantCol {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.instantInfoView {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fromToContainer {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fromToView {
+  display: flex;
+  width: calc(100% - 20px);
+  padding: 12px 10px;
+  border-radius: 5px;
+  margin: 0px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  color: var(--white);
+  border-color: var(--white);
+  border-width: 1px;
+  border-style: solid;
+  background-color: var(--black);
+}
+
+.instantExplainer {
+  color: var(--black);
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.instantInnerBottom {
+  padding: 0px 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.priceView {
+  width: calc(45% - 30px);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.priceTitle {
+  margin: 0px;
+}
+
+.priceVal {
+  margin: 0px;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.priceDesc {
+  margin: 0px;
+  margin-bottom: 10px;
+  max-width: 60%;
+  text-align: center;
+}
+
+.priceTerms {
+  margin: 0px;
+}
+
+.termsLink {
+  color: black;
+}
+
+.timeView {
+  width: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--white);
+  border-radius: 5px;
+  background-color: var(--black);
+}
+
+.timeTitle {
+  color: var(--white);
+  margin: 7px 0px;
+}
+
+.timeVal {
+  color: var(--white);
+  margin: 0px;
+  font-size: 2em;
+}
+
+.tailorYourMove {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  font-size: 1em;
+  margin: 0px;
+  margin: 10px 0px 0px 0px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.tailorYourMove:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.tableView {
+  width: calc(45% - 30px);
+  background-color: #cfcfcf;
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowsContainer {
+  margin-top: 25px;
+}
+
+.rowsContainer>p {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.tableContainer {
+  margin-left: 10px;
+}
+
+table {
+  border-spacing: 0px !important;
+}
+
+td {
+  background-color: white;
+  border-width: 1px;
+  border-color: var(--black);
+  border-style: solid;
+  margin: 0px;
+  text-align: center;
+}
+
+.tableCheck {
+  height: 20px;
+}
+
+.instantTailorView {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tailorTitle {
+  color: var(--white);
+  width: 80%;
+}
+
+.priceTerms {
+  color: var(--white);
+  width: 80%;
+}
+
+.termsLink {
+  color: var(--white);
+  text-align: left;
+}
+
+@media only screen and (max-width: 1450px) {
+  .instantBackground {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .instantContainer {
+    width: 900px;
+  }
+
+  .instantInnerTop {
+    padding: 20px 20px;
+  }
+
+  .instantInnerBottom {
+    padding: 0px 20px;
+  }
+
+  .instantCol {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .instantBackground {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .instantContainer {
+    width: 300px;
+  }
+
+  .instantInnerTop {
+    flex-direction: column;
+  }
+
+  .instantInnerBottom {
+    flex-direction: column;
+  }
+
+  .tableView {
+    width: calc(100% - 30px);
+  }
+
+  .instantContent {
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  .instantTitleRow {
+    flex-direction: column;
+  }
+
+  .instantTitle {
+    margin-bottom: 20px;
+  }
+
+  .fromToContainer {
+    flex-direction: column;
+    width: 100%;
+    height: unset;
+  }
+
+  .fromToView {
+    width: calc(100% - 24px);
+  }
+
+  .instantInfoView {
+    flex-direction: column;
+  }
+
+  .instantCol {
+    width: 100%;
+  }
+
+  .instantExplainer {
+    text-align: justify;
+  }
+
+  .instantInnerTop {
+    padding: 10px;
+  }
+
+  .instantInnerBottom {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .priceView {
+    width: calc(100% - 20px);
+    padding: 10px 10px;
+    margin-bottom: 20px;
+  }
+
+  .priceDesc {
+    max-width: 100%;
+    font-size: 0.9em;
+  }
+
+  .timeView {
+    width: calc(100% - 20px);
+    padding: 10px
+  }
+
+  .timeTitle {
+    text-align: center;
+  }
+
+  .tailorYourMove {
+    padding: 15px;
+  }
+
+  .priceTerms {
+    font-size: 0.9em;
+  }
+
+  table {
+    width: 50px !important;
+  }
+
+  .instantTailorView {
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+  }
+
+  .tailorTitle {
+    width: 100%;
+  }
+  
+  .priceTerms {
+    width: 100%;
+  }
+
+  .tailorYourMove {
+    width: 100%;
+    height: 60px;
+  }
+
+  th {
+    font-size: 0.7em;
+  }
+
+  .rowsContainer>p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .instantBackground {
+    min-height: calc(100vh - 360px);
+  }
+}

@@ -1,0 +1,41 @@
+.adminContainer {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminControls {
+  width: 600px;
+  padding: 50px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.adminExplainer {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.adminSubmit {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 20px 0px 0px 0px;
+  background-color: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.adminSubmit:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}

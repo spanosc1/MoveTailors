@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: local('Tahoma'), url(./../fonts/Tahoma.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tahoma_Bold';
+  src: local('Tahoma_Bold'), url(./../fonts/Tahoma_Bold.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia_Regular';
+  src: local('Sofia_Regular'), url(./../fonts/Sofia_Pro_Regular.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia_Light';
+  src: local('Sofia_Light'), url(./../fonts/Sofia_Pro_Light.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia_Bold';
+  src: local('Sofia_Bold'), url(./../fonts/Sofia_Pro_Bold.otf) format('opentype');
+  font-display: swap;
+}
+
+.tahoma {
+  font-family: 'Tahoma';
+}
+
+.tahomaBold {
+  font-family: 'Tahoma_Bold';
+}
+
+.sofia {
+  font-family: 'Sofia_Regular';
+}
+
+.sofiaLight {
+  font-family: 'Sofia_Light';
+}
+
+.sofiaBold {
+  font-family: 'Sofia_Bold';
+}
+
+:root {
+  --red: #ee3b37;
+  --blue: #2e4f91;
+  --white: #ebebeb;
+  --gray: #776b6b;
+  --black: #363636;
+  --red-gradient: linear-gradient(294deg, rgba(201,13,34,1) 0%, rgba(238,65,24,1) 100%);
+}

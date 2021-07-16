@@ -1,0 +1,72 @@
+.modalContainer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  z-index: -1;
+  height: 105vh;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(-30px);
+  background-color: rgba(54 ,54, 54, 0.5);
+  transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.modalVis {
+  transform: translateY(0px);
+  z-index: 11;
+  opacity: 1;
+}
+
+.modalInner {
+  width: 270px;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalMessage {
+  color: var(--black);
+  margin: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.modalButton {
+  width: 100%;
+  padding: 8px 0px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 3px 0px;
+  background-color: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.modalButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.3);
+}
+
+.modalCancel {
+  background-color: var(--red) !important;
+}
+
+.modalInput {
+  width: 100%;
+  margin: 3px 0px;
+  padding: 5px 0px;
+  border: none;
+  outline: none;
+  border-bottom: 1px var(--gray) solid;
+  background-color: transparent;
+  font-size: 1.2em;
+}

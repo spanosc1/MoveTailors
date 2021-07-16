@@ -1,0 +1,89 @@
+.stepContainer {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 4px var(--blue) solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.stepContainer:hover {
+  transform: scale(1.05);
+}
+
+.stepContainerActive {
+  border-color: var(--red);
+}
+
+.stepImg {
+  width: 45px;
+  height: 45px;
+}
+
+.stepName {
+  margin: 10px 0px 0px 0px;
+  color: var(--blue);
+}
+
+@media only screen and (max-width: 1450px) {
+  .stepContainer {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .stepImg {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .stepName {
+    margin: 5px 0px 0px 0px;
+    color: var(--blue);
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .stepContainer {
+    width: 70px;
+    height: 70px;
+    border: 3px var(--blue) solid;
+  }
+
+  .stepContainerActive {
+    border-color: var(--red);
+  }
+  
+  .stepImg {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .stepName {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .stepContainer {
+    width: 60px;
+    height: 60px;
+    border: 2px var(--blue) solid;
+  }
+
+  .stepContainerActive {
+    border-color: var(--red);
+  }
+  
+  .stepImg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .stepName {
+    font-size: 0.8em;
+  }
+}
