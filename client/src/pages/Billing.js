@@ -19,8 +19,7 @@ import stripe from "./../images/stripe_logo.png";
 // Make sure to call loadStripe outside of a component’s render to avoid
 // recreating the Stripe object on every render.
 // loadStripe is initialized with your real test publishable API key.
-const promise = loadStripe("pk_live_51HvvOjGseB6JcKOv6fzfCcsl8bgEzAWPMYqGpPVaQzIzjc4jH9ZoBGg397RqOmBqcXQy5RO9HJxcH9JHSOuOUqty009gvfEWOp");
-// const promise = loadStripe("pk_test_51HvvOjGseB6JcKOvGAUDEeyKo0BVDAaHD2rYUF1suQxFEQp0AjQCxlftehUZQQOeyWCj86zpCyKFJ4u8XA2emGYb00rPo3bDrb");
+const promise = loadStripe(process.env.REACT_APP_STRIPE_PK_LIVE);
 
 class Billing extends React.Component {
   constructor(props) {
